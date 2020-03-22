@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git学习笔记</title>
+</head>
+
+<body>
+    <h1>Git 命令</h1>
+
+    <h4>
+        初始化本地项目：
+    </h4>
+    <ul>
+        <li>
+            git init 创建本地项目目录
+            git config --global user.name 'Vincent'
+            git config --global user.email '105257109@qq.com'
+            git add index.html
+        </li>
+    </ul>
+    <h4>
+        添加文件到本地上传目录：
+    </h4>
+    <ul>
+        <li>
+            //添加文件到队列
+            git add index.html
+
+            //添加文件到队列
+            git add *.html
+
+            //添加文件到队列
+            git add .
+
+            //添加文件到队列
+            git status
+
+            //添加文件到队列
+            git rm --cached index.html (*.)
+        </li>
+    </ul>
+    <h4>
+        上传文件只本地目录：
+    </h4>
+    <ul>
+        <li>
+            //上传文件到本地目录
+            git commit
+
+            //填写提交备注后，:wq退出
+        </li>
+    </ul>
+</body>
+
+</html>
